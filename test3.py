@@ -2,7 +2,7 @@
 import pymongo
 
 # Password of MongoDB database and using a format to mask the password
-password = 'Burhan1994.'
+password = 'xxxxx'
 client = pymongo.MongoClient("mongodb+srv://Burhan:{}@cluster0.pjdknfn.mongodb.net/?retryWrites=true&w=majority".format(password))
 db = client.test
 
@@ -125,4 +125,20 @@ print('\n')
 # Filtering data's whose item is 'sketch pad' or qty is >= 75
 data = collection.find({'$or': [{'item': 'sketch pad'}, {'qty': {'$gte': 75}}]})
 for i in data :
+    print(i)
+
+print('\n')
+
+# Updating a item value 'canvas' with 'burhan'
+collection.update_one({'item':'canvas'},{'$set':{'item':'burhan'}})
+d = collection.find({'item':'burhan'})
+for i in d:
+    print(i)
+
+print('\n')
+
+# Deleting a item value 'burhan'
+collection.delete_one({'item':'burhan'})
+d = collection.find({'item':'burhan'})
+for i in d:
     print(i)
