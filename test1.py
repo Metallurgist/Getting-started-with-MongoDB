@@ -11,5 +11,13 @@ collection = database['burhan']# Creating a Database collection
 collection1 = database['dpkt']# Creating a Database collection1
 
 # Return all collection record stored inside the Database
-for i in collection.find() :
+record = collection.find()
+for i in record :
+    print(i)
+
+print('\n')
+
+# Find one particular record out from the entire databases
+data = collection.find({'companyName' : 'iNeuron'})
+for i in data :
     print(i)
