@@ -87,8 +87,22 @@ for i in data :
 
 print('\n')
 
-# Filtering data's whose status is 'D' | 'P'
+# Filtering data's whose status is 'A' | 'P'
 data = collection.find({'status' : {'$in':['A','P']}})
+for i in data :
+    print(i)
+
+print('\n')
+
+# Filtering data's whose status is > D
+data = collection.find({'status' : {'$gt':'D'}})
+for i in data :
+    print(i)
+
+print('\n')
+
+# Filtering data's whose qty is >= 75
+data = collection.find({'qty' : {'$gte':75}})
 for i in data :
     print(i)
 
