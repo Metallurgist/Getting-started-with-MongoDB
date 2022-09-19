@@ -73,3 +73,22 @@ data =  [
         },
     ]
 collection.insert_many(data)
+
+d = collection.find()
+for i in d:
+    print(i)
+
+print('\n')
+
+# Filtering data's whose status is 'D'
+data = collection.find({'status' : 'D'})
+for i in data :
+    print(i)
+
+print('\n')
+
+# Filtering data's whose status is 'D' | 'P'
+data = collection.find({'status' : {'$in':['A','P']}})
+for i in data :
+    print(i)
+
