@@ -1,7 +1,7 @@
 # Importing MongoDB
 import pymongo
 
-# Password of MongoDB database and using a format
+# Password of MongoDB database and using a format to mask the password
 password = 'Burhan1994.'
 client = pymongo.MongoClient("mongodb+srv://Burhan:{}@cluster0.pjdknfn.mongodb.net/?retryWrites=true&w=majority".format(password))
 db = client.test
