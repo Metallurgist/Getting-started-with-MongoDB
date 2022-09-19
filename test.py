@@ -8,7 +8,6 @@ db = client.test
 
 database = client['myinfo']# Creating a MangoDB Database
 collection = database['burhan']# Creating a Database collection
-collection = database['burhan']# Creating a Database collection
 collection1 = database['dpkt']# Creating a Database collection1
 
 # Creating a 'data' data and inserting inside 'burhan' collection
