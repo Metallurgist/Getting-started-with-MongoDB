@@ -106,3 +106,23 @@ data = collection.find({'qty' : {'$gte':75}})
 for i in data :
     print(i)
 
+print('\n')
+
+# Filtering data's whose item is 'sketch pad' and qty is >= 95
+data = collection.find({'item':'sketch pad','qty':95})
+for i in data :
+    print(i)
+
+print('\n')
+
+# Filtering data's whose item is 'sketch pad' and qty is >= 75
+data = collection.find({'item':'sketch pad','qty':{'$gte':75}})
+for i in data :
+    print(i)
+
+print('\n')
+
+# Filtering data's whose item is 'sketch pad' or qty is >= 75
+data = collection.find({'$or': [{'item': 'sketch pad'}, {'qty': {'$gte': 75}}]})
+for i in data :
+    print(i)
