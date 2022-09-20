@@ -1,6 +1,6 @@
 # Getting started with MongoDB
 
-[MongoDB Documentation] (https://pymongo.readthedocs.io/en/stable/)
+[MongoDB Documentation](https://pymongo.readthedocs.io/en/stable/)
 
 ```
 pip install pymongo
