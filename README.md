@@ -1,4 +1,4 @@
-![hg](https://www.pngegg.com/en/png-wfjmo)
+![hg]([https://www.pngegg.com/en/png-wfjmo](https://findlogovector.com/wp-content/uploads/2022/04/mongodb-logo-vector-2022.png))
 # Getting started with MongoDB
 
 **PyMongo** is a Python distribution containing tools for working with **[MongoDB](https://www.mongodb.com/)**, and is the recommended way to work with MongoDB from Python. This **[MongoDB Documentation](https://pymongo.readthedocs.io/en/stable/)** attempts to explain everything you need to know to use PyMongo.
