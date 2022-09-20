@@ -13,6 +13,9 @@ The correct dependency can be installed automatically along with PyMongo. Suppor
 ```
 pip install "pymongo[srv]"
 ```
-![Cluster0 Databases and Collections](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Cluster0%20Databases%20and%20Collections.png)
-![Cluster0 connect](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Cluster0%20connect.png)
+* To practise with MongoDB , I have created a free database **Cluster0** with CLUSTER TIER : **M0 Sandbox (General)** with total size of **512.0 MB**
 ![Cluster0](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Cluster0.png)
+* Click connect to choose a connection method to connect with your application.
+![Cluster0 connect](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Cluster0%20connect.png)
+* Created Databases and connection as shown here-in below. Click refresh after every data insertion.
+![Cluster0 Databases and Collections](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Cluster0%20Databases%20and%20Collections.png)
