@@ -17,7 +17,7 @@ pip install "pymongo[srv]"
 > * To practise with MongoDB , I have created a free database **Cluster0** with **CLUSTER TIER : M0 Sandbox (General)** with total size of **512.0 MB**
 ![Cluster0](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Cluster0.png)
 
-> Click connect to choose a connection method to connect with your application.
+* > Click connect to choose a connection method to connect with your application.
 ![Cluster0 connect](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Cluster0%20connect.png)
 
 > Created Databases and connection as shown here-in below. Click refresh after every data insertion.
