@@ -6,7 +6,8 @@
 ```
 pip install pymongo
 ```
-**Depedencies**
+**Dependencies**
+
 The correct dependency can be installed automatically along with PyMongo:
 Support for mongodb+srv:// URIs requires dnspython:
 ```
