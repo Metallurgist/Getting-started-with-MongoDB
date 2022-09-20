@@ -1,4 +1,4 @@
-![hg](https://findlogovector.com/wp-content/uploads/2022/04/mongodb-logo-vector-2022.png)
+![hg](https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png)
 # Getting started with MongoDB
 
 **PyMongo** is a Python distribution containing tools for working with **[MongoDB](https://www.mongodb.com/)**, and is the recommended way to work with MongoDB from Python. This **[MongoDB Documentation](https://pymongo.readthedocs.io/en/stable/)** attempts to explain everything you need to know to use PyMongo.
