@@ -30,6 +30,9 @@ collection1 = database['Test_Collection_01']
 collection2 = database['Test_Collection_02']
 ```
 
-Use ```collection.insert_one``` for single entry and ```collection.insert_many``` for pushing multiple data entry into the Collection
+Use ```collection.insert_one``` for single entry and ```collection.insert_many``` for pushing multiple data entry into the Test_Collections
 
 ![Collections](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/collections.png)
+
+* Visualising data inside Test_Collection2
+![Collections2](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Collection2.png)
