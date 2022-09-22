@@ -26,4 +26,4 @@ pip install "pymongo[srv]"
 * Lets create a Test Database and Test collections to store our data.
 ![DataBase](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/DataBase.png)
 
-```collection.insert_one``` and ```collection.insert_many```
+Use ```collection.insert_one``` for single entry and ```collection.insert_many``` for pushing multiple data entry into the Collection
