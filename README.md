@@ -25,9 +25,11 @@ pip install "pymongo[srv]"
 
 * Lets create a Test Database and Test collections to store our data.
 ```
-database = client['Test_DataBase']# Creating a MangoDB Database
-collection1 = database['Test_Collection_01']# Creating a collection1
-collection2 = database['Test_Collection_02']# Creating a collection2
+database = client['Test_DataBase']
+collection1 = database['Test_Collection_01']
+collection2 = database['Test_Collection_02']
 ```
 
 Use ```collection.insert_one``` for single entry and ```collection.insert_many``` for pushing multiple data entry into the Collection
+
+![Collections](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/collections.png)
