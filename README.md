@@ -22,3 +22,6 @@ pip install "pymongo[srv]"
 
 * Created Databases and connection as shown here-in below. Click refresh after every data insertion.
 ![Cluster0 Databases and Collections](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/Cluster0%20Databases%20and%20Collections.png)
+
+* Lets create a Test Database and Test collections to store our data.
+![DataBase](https://github.com/Metallurgist/Getting-started-with-MongoDB/blob/master/Pics/DataBase.png)
